@@ -61,12 +61,13 @@ export function Presentation() {
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [currentSlide]);
+  }, []);
 
   // Keyboard navigation from parent (Webflow iframe fix)
 useEffect(() => {
   const handleMessage = (event: MessageEvent) => {
     const allowedOrigins = [
+      "https://competition-metrics-splashtop-mar20.vercel.app/",
       "https://lwstaging.webflow.io",
       "https://www.leadwalnut.com"
     ];
