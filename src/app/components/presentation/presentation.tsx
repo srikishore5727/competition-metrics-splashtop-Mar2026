@@ -29,16 +29,18 @@ export function Presentation() {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   const goToNextSlide = () => {
-    if (currentSlide < 23) {
-      setCurrentSlide(currentSlide + 1);
-    }
-  };
+  setCurrentSlide((prev) => {
+    if (prev < 23) return prev + 1;
+    return prev;
+  });
+};
 
-  const goToPreviousSlide = () => {
-    if (currentSlide > 0) {
-      setCurrentSlide(currentSlide - 1);
-    }
-  };
+const goToPreviousSlide = () => {
+  setCurrentSlide((prev) => {
+    if (prev > 0) return prev - 1;
+    return prev;
+  });
+};
 
   const goToSlide = (index: number) => {
     setCurrentSlide(index);
