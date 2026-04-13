@@ -1,0 +1,10 @@
+Keyword,Intents,Volume,KD,ST,TV,AD,logmein.com,GMPC
+remote login,"Navigational, Transactional",2900,100,0,3,6,9,11
+remote access to computer,Informational,1900,70,0,5,3,30,7
+remote desktop free,Informational,590,82,0,2,3,7,24
+computer remote access,Informational,480,75,0,3,43,37,6
+remote desktop on macbook,Informational,390,72,0,48,6,85,54
+remote pc control,Informational,320,86,0,4,5,75,8
+remote into another computer,Informational,260,72,0,3,4,51,8
+remote pc access free,Commercial,210,71,0,1,7,15,8
+windows remote dekstop,Informational,170,76,0,82,8,53,23

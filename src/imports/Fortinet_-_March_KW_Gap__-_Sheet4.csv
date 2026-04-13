@@ -1,0 +1,55 @@
+Keyword,Intents,Volume,KD,CPC,CD,FT,PA,CP,CISCO,CS
+threat detection,Informational,1900,48,11.91,0.28,0,8,77,6,2
+extended detection and response,Informational,1600,53,24.89,0.45,0,2,29,3,4
+mdr security,Informational,1600,34,60.34,0.66,0,1,21,8,6
+ransomware recovery,Informational,1300,54,27.03,0.27,0,19,45,29,22
+what is ci cd pipeline,Informational,1300,61,1.42,0.13,0,13,51,28,12
+cloud security management,Informational,1000,24,20.93,0.25,0,57,62,40,9
+data leak protection tools,Commercial,1000,39,42.87,0.2,0,21,64,41,2
+dlp software solutions,"Commercial, Informational",1000,41,50.05,0.16,0,19,24,45,5
+managed cloud security,Informational,1000,22,0,0,0,30,27,86,1
+threat intelligence platforms,Informational,1000,39,23.6,0.32,0,1,41,39,30
+waf information security,Informational,1000,54,12.83,0.28,0,9,51,2,5
+siem vs soar,"Commercial, Informational",880,22,8.07,0.27,0,1,12,82,2
+vpn for business,Commercial,880,63,0,0,0,11,23,45,66
+what is cdr,Informational,880,16,0,0,0,26,11,38,4
+cloud cyber security,Informational,720,53,17.62,0.35,0,92,7,29,3
+how can generative ai be used in cybersecurity,Informational,720,28,3.98,0.37,0,2,24,51,75
+managed xdr,Informational,720,29,30.86,0.38,0,13,24,8,1
+threat modelling,Informational,720,49,6.29,0.24,0,39,72,5,38
+what is spear phishing attack,Informational,720,41,0.73,0.04,0,5,37,4,3
+container scanning,Informational,590,28,19.2,0.33,0,40,55,60,29
+container vulnerability scanning,Informational,590,18,24.36,0.09,0,34,61,71,29
+ransomware data recovery,Informational,590,49,27.03,0.27,0,18,60,48,31
+xdr vs siem,"Commercial, Informational",590,8,8.11,0.37,0,1,16,35,2
+malware detect,Informational,480,78,4.05,0.66,0,14,39,35,30
+container security scanning,Informational,390,18,16.48,0.11,0,23,70,66,51
+cyber attacks 2025,Informational,390,50,0,0,0,6,66,43,10
+cybersecurity assessments,Informational,390,30,15.38,0.14,0,49,48,96,34
+data loss protection solutions,Informational,390,49,50.13,0.09,0,20,59,29,3
+genai security,Informational,390,33,12.71,0.56,0,2,3,78,61
+how to counter a ddos attack,Informational,390,27,8.31,0.4,0,37,56,19,60
+machine learning cybersecurity,Informational,390,58,4.58,0.23,0,10,56,6,1
+machine learning for cyber security,Informational,390,54,4.58,0.23,0,12,28,1,2
+managed detection & response,Informational,390,50,70.77,0.58,0,3,39,12,4
+cloud computing and cyber security,Informational,320,29,9.34,0.14,0,72,30,74,7
+cyber security assessments,Informational,320,28,15.38,0.14,0,28,30,37,20
+example sql injection,Informational,320,59,1.04,0.03,0,45,28,43,46
+identity and acess management,Informational,320,62,18.8,0.33,0,62,83,8,20
+kubernetes security posture management,Informational,320,23,14.51,0.13,0,2,24,40,3
+siem cyber security software,Informational,320,-1,17.09,0.65,0,19,50,33,36
+what are ci cd pipelines,Informational,320,50,1.14,0.05,0,6,44,28,9
+ai endpoint security,Informational,260,42,0,0.18,0,1,23,100,11
+ai security threats,Informational,260,65,10.09,0.46,0,4,44,14,28
+best remote access solutions for compliance-heavy industries 2025,Commercial,260,8,0,0,0,84,75,59,86
+patch management vs vulnerability management,"Commercial, Informational",260,21,10.97,0.22,0,1,82,89,85
+ransomware is a type of malware,Informational,260,70,0,0.03,0,4,19,26,25
+security development lifecycle,Informational,260,40,13.01,0.09,0,3,59,43,46
+siem in cyber security,Informational,260,51,14.01,0.47,0,6,44,52,7
+siem vs xdr,"Commercial, Informational",260,15,10.7,0.51,0,1,16,31,4
+kubernetes and security,"Informational, Transactional",210,37,30.27,0.24,0,10,27,71,8
+managed detection response services,Informational,210,48,82.5,0.36,0,2,36,5,7
+xdr vs siem vs soar,"Commercial, Informational",210,24,5.4,0.14,0,1,23,22,2
+evaluate the cybersecurity company living security on email security platforms,Informational,170,11,0,0,0,38,12,15,80
+how do you prevent a ddos attack,Informational,170,31,8.27,0.31,0,9,27,50,45
+xdr security solutions,Informational,170,46,0,0.2,0,2,36,8,9
