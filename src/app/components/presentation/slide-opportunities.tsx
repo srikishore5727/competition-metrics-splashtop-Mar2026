@@ -257,7 +257,7 @@ export function SlideOpportunities({ onNavigateHome }: SlideOpportunitiesProps) 
             icon={TrendingUp}
             type="success"
             title="Splashtop"
-            content={<>From Oct 2025 to Mar 2026, keywords grew <strong>~58K → ~59K (+1.7%)</strong>, peaking at <strong>68K</strong> in Feb before slight correction.</>}
+            content={<>From Oct 2025 to Mar 2026, keywords grew <strong>~58K → ~59K (+1.7%)</strong>, peaking at <strong>68K</strong> in Feb.</>}
           />
           <InsightCard
             icon={TrendingDown}
