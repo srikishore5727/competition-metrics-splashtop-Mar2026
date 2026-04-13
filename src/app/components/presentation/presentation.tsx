@@ -63,6 +63,28 @@ export function Presentation() {
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [currentSlide]);
 
+  // Keyboard navigation from parent (Webflow iframe fix)
+useEffect(() => {
+  const handleMessage = (event: MessageEvent) => {
+    const allowedOrigins = [
+      "https://lwstaging.webflow.io",
+      "https://www.leadwalnut.com"
+    ];
+
+    if (!allowedOrigins.includes(event.origin)) return;
+
+    if (event.data?.type === "KEY_NAV") {
+      if (event.data.key === "ArrowRight") goToNextSlide();
+      if (event.data.key === "ArrowLeft") goToPreviousSlide();
+    }
+  };
+
+  window.addEventListener("message", handleMessage);
+
+  return () => window.removeEventListener("message", handleMessage);
+// eslint-disable-next-line react-hooks/exhaustive-deps
+}, []);
+
   const slides = [
     <SlideCover key="0" onNavigateHome={goToHome} />,
     <SlideTOC key="1" onNavigate={(index) => setCurrentSlide(index)} onNavigateHome={goToHome} />,
