@@ -24,13 +24,14 @@ import { SlideKeywordGap } from './slide-keyword-gap';
 import { SlideCompetitiveFindings } from './slide-competitive-findings';
 import { SlideThankYou } from './slide-thank-you';
 import { SlideKeyTakeaways } from './slide-key-takeaways';
+import { SlideNextSteps } from './slide-next-steps';
 
 export function Presentation() {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   const goToNextSlide = () => {
   setCurrentSlide((prev) => {
-    if (prev < 23) return prev + 1;
+    if (prev < 24) return prev + 1;
     return prev;
   });
 };
@@ -112,7 +113,8 @@ useEffect(() => {
     <SlideKeywordGap key="20" onNavigateHome={goToHome} />,
     <SlideCompetitiveFindings key="21" onNavigateHome={goToHome} />,
     <SlideKeyTakeaways key="22" onNavigateHome={goToHome} />,
-    <SlideThankYou key="23" onNavigateHome={goToHome} />,
+    <SlideNextSteps key="23" onNavigateHome={goToHome} />,
+    <SlideThankYou key="24" onNavigateHome={goToHome} />,
   ];
 
   const totalSlides = slides.length;
